@@ -16,5 +16,22 @@
             <a href="formulario.php">Formulario</a>
         </li>
     </ul>
+
+    <form action="formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
+        <br><br>
+        <label for="descripcion">Descripcion:</label>
+        <input type="text" name="descripcion">
+        <br><br>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad">
+        <br><br>
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
 </body>
 </html>
