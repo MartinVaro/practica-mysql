@@ -16,6 +16,5 @@
             <a href="formulario.php">Formulario</a>
         </li>
     </ul>
-    
 </body>
 </html>

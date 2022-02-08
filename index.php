@@ -7,7 +7,7 @@
     <title>Hola mundo</title>
 </head>
 <body>
-    <h1>Hola mundo perros</h1>
+    <h1>Hola mundo</h1>
     <ul>
         <li>
             <a href="index.php">Inicio</a>
@@ -17,8 +17,6 @@
         </li>
     </ul>
     <?php 
-        $nombre = "Martin";
-        echo "Hola $nombre";
     ?>
 </body>
 </html>
