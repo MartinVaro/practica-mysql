@@ -11,7 +11,7 @@
         VALUES ('$nombre', '$descripcion', $cantidad, $precio)";
 
         $conn->exec($sql);
-        header("Location: formulario.php");
+        header('Location: formulario.php');
     }
 
 
