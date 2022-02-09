@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+        include('conexion.php');
+    ?>
     <h1>Formulario</h1>
     <ul>
         <li>
@@ -17,7 +20,7 @@
         </li>
     </ul>
 
-    <form action="formulario.php" method="POST">
+    <form action="store.php" method="POST">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre">
         <br><br>
